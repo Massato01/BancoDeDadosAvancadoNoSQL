@@ -171,8 +171,8 @@ CREATE TABLE IF NOT EXISTS public.section (
 -- Table: public.student
 CREATE TABLE IF NOT EXISTS public.student (
     id VARCHAR(5),
-    dept_name VARCHAR(20),
     name VARCHAR(20),
+    dept_name VARCHAR(20),
     tot_cred VARCHAR(3)
 );
 
