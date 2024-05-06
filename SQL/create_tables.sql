@@ -146,8 +146,8 @@ CREATE TABLE IF NOT EXISTS public.department (
 -- Table: public.instructor
 CREATE TABLE IF NOT EXISTS public.instructor (
     id VARCHAR(5),
-    dept_name VARCHAR(20),
     name VARCHAR(20),
+    dept_name VARCHAR(20),
     salary VARCHAR(8)
 );
 
