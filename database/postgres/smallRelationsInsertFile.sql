@@ -15,6 +15,7 @@ insert into classroom values ('Painter', '514', '10');
 insert into classroom values ('Taylor', '3128', '70');
 insert into classroom values ('Watson', '100', '30');
 insert into classroom values ('Watson', '120', '50');
+insert into classroom values ('Vazio', '10', '5');
 
 insert into department values ('Biology', 'Watson', '90000');
 insert into department values ('Comp. Sci.', 'Taylor', '100000');
