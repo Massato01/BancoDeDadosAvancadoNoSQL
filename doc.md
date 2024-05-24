@@ -1,3 +1,10 @@
+| INTEGRANTES                  | RA           |
+| ---------------------------- | ------------ |
+| Carlos Massato Horibe Chinen | 22.221.010-6 |
+| Vinicius Alves Pedro         | 22.221.036-1 |
+| Gabriel Nunes Missima        | 22.221.040-3 |
+| Matheus T. da Silva Arcanjo  | 22.221.020-5 |
+
 A partir das 10 queries a seguir, estruture o modelo de dados para ser armazenando usando um banco do tipo Document Store:
 
 1. Listar todos os cursos oferecidos por um determinado departamento
