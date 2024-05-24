@@ -19,10 +19,9 @@ A partir das 10 queries a seguir, estruture o modelo de dados para ser armazenan
 10. Recuperar a quantidade de alunos orientados por cada professor
 
 ### Config:
-### MongoDB
-Username: massatohc
-Password: rvNoSo1NgKSAnYZd
-Link: https://cloud.mongodb.com/v2/662bbf0ac30fd927e877ef86#/clusters/detail/Cluster0
+### Docker
+Container name: meu-cassandra
+Keyspace: CREATE KEYSPACE cc6240 WITH REPLICATION = { 'class': 'NetworkTopologyStrategy', 'replication_factor' :1};
 
 ### ElephantSQL
 Server:	motty.db.elephantsql.com
@@ -39,6 +38,6 @@ URL: postgres://dcxhxgql:bPlk_dl7Xc4l0WEaPCJIYR4dnO9kGZbz@motty.db.elephantsql.c
 CREATE executado com sucesso!
 INSERT executada com sucesso!
 ```
-* Após inserir os dados no postgres, execute o notebook **document_store/main.ipynb** ou execute o script **document_store/main.py**
+* Após inserir os dados no postgres, execute o notebook **wide_column/main.ipynb** ou execute o script **wide_column/main.py**
 
-* Os resultados estão em **document_store/resultados.md**
+* Os resultados estão em **wide_column/resultados.md**

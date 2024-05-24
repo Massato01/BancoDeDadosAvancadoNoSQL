@@ -564,7 +564,7 @@ def prerequisitos():
     return df
 
 df = prerequisitos()
-df
+print(df)
 
 print('------------------------------------------------------------------')
 print("Questão 10 - Recuperar a quantidade de alunos orientados por cada professor\n")
